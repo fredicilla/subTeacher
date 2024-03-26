@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+  margin: 0%;
+}
+body {
+          font-family: "Cairo", sans-serif;
+          direction: rtl; 
+      }
+      
+      nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+          color: #0077CD;
+      }
+      
+      .logo img {
+          height: 90px; /* Adjust height of logo as needed */
+      }
+      
+      .nav-links{
+          display: flex;
+          justify-content: start;
+          width: 800px;
+      }
+      .nav-links a {
+          margin: 0px 20px ;
+          color: #0077CD;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 800;
+      }
+      
+      .buttons button {
+          margin: 0 10px;
+          padding: 10px 25px; /* Wider padding for buttons */
+          border: none;
+          background-color: #0077cd;
+          color: #fff;
+          transition:  0.3s; /* Smooth transition for hover effect */
+          border-radius: 15px;
+          font-size: 15px;
+      }
+      
+      .buttons button:hover {
+          background-color: #00508e; /* Darker shade on hover */
+      }
+      #sign-in-button{
+          background-color: white;
+          color: #0077CD;
+      }
+
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.a {
+  margin-right: 20px; 
+}
+
+footer {
+  background-color: #0077CD;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  margin-right: 10px;
+  gap: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the size as needed */
+}

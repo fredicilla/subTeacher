@@ -1,3 +1,9 @@
+*{
+          margin: 0%;
+          padding: 0%;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 body {
@@ -26,8 +32,9 @@ body {
           margin: 0px 20px ;
           color: #0077CD;
           text-decoration: none;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 800;
+          font-family: "Cairo", sans-serif;
       }
       
       .buttons button {
@@ -42,46 +49,50 @@ body {
       }
       
       .buttons button:hover {
-          background-color: #00508e; /* Darker shade on hover */
+          background-color: #00508e; 
       }
       #sign-in-button{
           background-color: white;
           color: #0077CD;
       }
 
-      h1{
-          color: #0077CD;
-      }
-      
-      
-      section {
-          text-align: center;
+
+.background-image {
+          background-image: url('../IMG/maincontentaboutus\ .png');
+          background-size: cover;
+          background-position: center;
+          height: 500px;
+          width: 1000px;
           margin-top: 50px;
-      }
-      
-      .cards {
-          display: flex;
-          justify-content: center;
-          gap: 20px;
-          overflow: hidden;
-      }
-      
-      .card {
-          width: 305px; 
-          height: 150px;
+          margin-right: 11%; 
+        }
+
+
+
+        footer {
+          background-color: #0077CD;
+          color: white;
           padding: 20px;
-          border-radius: 5px;
-          line-height: 50%;
-          font-size: 17px;
-          border: solid 1px #0077CD;
-      }
-      .card img{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .social-media {
+          display: flex;
+        }
+        
+        .social-media a {
+          margin-right: 10px;
+          gap: 20px;
           height: 50px;
           width: 50px;
-      }
-      .titles{
-          display: flex;
-          justify-content: start;
-          margin-right: 50px;
-      }
-      
+        }
+        
+        .contact-info {
+          text-align: center;
+        }
+        
+        .logo img {
+          width: 100px; /* Adjust the size as needed */
+        }

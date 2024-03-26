@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المتجر الإلكتروني</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #b3d9ff, #ffffff);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        /* Form styling */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        p {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>المتجر الإلكتروني</h1>
+        <form action="#" method="post">
+            <label for="schoolName">اسم المدرسة</label>
+            <input type="text" id="schoolName" name="schoolName" required>
+            <label for="licenseNumber">رقم الرخصة</label>
+            <input type="text" id="licenseNumber" name="licenseNumber" required>
+            <label for="schoolLocation">موقع المدرسة</label>
+            <input type="text" id="schoolLocation" name="schoolLocation" required>
+            <label for="schoolManagement">ادارة العليم</label>
+            <input type="text" id="schoolManagement" name="schoolManagement" required>
+            <label for="phoneNumber">رقم الهاتف</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            <label for="email">الايميل الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirmPassword">تأكيد كلمة المرور</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <input type="submit" value="تسجيل دخول">
+        </form>
+        <p>لا تملك حساب؟ <a href="#">سجّل هنا</a></p>
+    </div>
+</body>
+</html>
